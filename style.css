@@ -56,7 +56,7 @@ body {
 }
 #search-bar input {
   margin: auto;
-  width: 85%;
+  width: 80%;
   height: 100%;
   border: none;
   font-size: 1.6rem;
@@ -97,7 +97,9 @@ body {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  float: right;
+  
+  float:right;
+  
 }
 
 #form-buttons {
@@ -223,4 +225,11 @@ a:visited{
 
 #footer-links > ul:last-child > li:last-child{
     margin-right: 0;
+}
+
+
+@media screen and (max-width: 750px){
+  #search-bar{
+    width: 100%;
+  }
 }
